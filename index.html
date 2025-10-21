@@ -8,7 +8,73 @@
 </head>
 
 <body>
-    
+
+    <section>
+        <h1>Формуляр</h1>
+            <form action="">
+            
+            <label for="name">Введите ваше имя:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Введите ваш e-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="city">Введите ваш город:</label><br>
+            <select id="city" name="city" required>
+                <option value="">Выберите город</option>
+                <option value="Бельцы">Бельцы</option>
+                <option value="Кишинёв">Кишинёв</option>
+                <option value="Тирасполь">Тирасполь</option>
+                <option value="Орхей">Орхей</option>
+                <option value="Кагул">Кагул</option>
+                <option value="Фалешты">Фалешты</option>
+                <option value="Унгень">Унгень</option>
+            </select><br><br>
+
+            <label for="birthdate">Введите дату рождения:</label><br>
+            <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+            <h2>Пол:</h2>
+            <input type="radio" id="male" name="gender" value="Мужской" required>
+            <label for="male">Мужской</label><br>
+            <input type="radio" id="female" name="gender" value="Женский">
+            <label for="female">Женский</label><br>
+
+            <h2>Хобби:</h2>
+            <input type="radio" id="singing" name="hobby" value="Пение" required>
+            <label for="singing">Пение</label><br>
+            <input type="radio" id="drawing" name="hobby" value="Рисование">
+            <label for="drawing">Рисование</label><br>
+            <input type="radio" id="sport" name="hobby" value="Спорт">
+            <label for="sport">Спорт</label><br>
+            <input type="radio" id="other-hobby" name="hobby" value="Другое">
+            <label for="other-hobby">Другое — укажите:</label>
+            <input type="text" name="hobby_other"><br><br>
+
+            <h2>Введите ваш любимый предмет:</h2>
+            <input type="checkbox" id="math" name="subject" value="Математика">
+            <label for="math">Математика</label><br>
+            <input type="checkbox" id="it" name="subject" value="Информатика">
+            <label for="it">Информатика</label><br>
+            <input type="checkbox" id="languages" name="subject" value="Иностранные языки">
+            <label for="languages">Иностранные языки</label><br>
+            <input type="checkbox" id="literature" name="subject" value="Литература">
+            <label for="literature">Литература</label><br>
+            <input type="checkbox" id="art" name="subject" value="Изобразительное искусство">
+            <label for="art">Изобразительное искусство</label><br>
+            <input type="checkbox" id="none" name="subject" value="Нет любимых предметов">
+            <label for="none">У меня нет любимых предметов</label><br>
+            <input type="checkbox" id="other-subject" name="subject" value="Другое">
+            <label for="other-subject">Другое — укажите:</label>
+            <input type="text" name="subject_other"><br><br>
+
+            <label for="dream">Кем вы мечтаете стать в будущем:</label><br>
+            <textarea id="dream" name="dream" rows="5" cols="40" placeholder="Укажите"></textarea><br><br>
+
+            <input type="submit" value="Отправить">
+            </form>
+    </section>
+
 </body>
 
 </html>
